@@ -1,3 +1,9 @@
+/*
+También se podría haber usado el método .map() sobre un arreglo de 4 logos para renderizar el mismo "common" (card) con cada logo.
+
+Por simplicidad, al ser solo 4 logos decidí no aplicar el .map(). En caso de escalar el código a muchos más logos, el método .map() sería mas eficiente.
+*/
+
 import Logo from "./components/Logo";
 import Left from "./components/Left";
 import Right from "./components/Right";
@@ -8,12 +14,10 @@ function App() {
 
   const handleNext = () => {
     counter === 4 ? setCounter(1) : setCounter(counter + 1);
-    console.log(counter);
   };
 
   const handleBack = () => {
     counter === 1 ? setCounter(4) : setCounter(counter - 1);
-    console.log(counter);
   };
 
   return (
