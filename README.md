@@ -30,7 +30,7 @@ Escribir un componente usando React que muestre una lista de logos de ProFlight.
 
    1. Cloná el repositorio
    ```sh
-   git clone https://github.com/martin0995/ProFlight_challenge.git
+   git clone https://github.com/martin0995/ProFlight_challenge
    ```
    2. Instalá los paquetes NPM 
    ```sh
