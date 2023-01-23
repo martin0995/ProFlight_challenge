@@ -1,0 +1,4 @@
+.photoContainer {
+  height: calc(30vh - 50px);
+  width: calc(30vh - 50px);
+}
