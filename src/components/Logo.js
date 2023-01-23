@@ -5,7 +5,11 @@ import styles from "./Logo.module.css";
 const Logo = () => {
   return (
     <div>
-      <img className={`${styles.photoContainer} rounded-lg`} src={logo} />
+      <img
+        className={`${styles.photoContainer} rounded-lg`}
+        src={logo}
+        alt="ProFLight logo"
+      />
     </div>
   );
 };

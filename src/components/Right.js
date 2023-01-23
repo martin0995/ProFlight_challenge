@@ -5,7 +5,11 @@ import styles from "./Arrows.module.css";
 const Right = () => {
   return (
     <div>
-      <img className={`${styles.photoContainer}`} src={rightArrow} />
+      <img
+        className={`${styles.photoContainer}`}
+        src={rightArrow}
+        alt="Right arrow logo"
+      />
     </div>
   );
 };
