@@ -38,7 +38,7 @@ Escribir un componente usando React que muestre una lista de logos de ProFlight.
    ```
   3. Iniciá el proyecto
    ```sh
-  npm run dev
+  npm start
    ```
   
 
